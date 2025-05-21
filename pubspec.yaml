@@ -1,0 +1,20 @@
+name: shakhes_fear_greed
+description: Fear & Greed Index App
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.18.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.4
+  syncfusion_flutter_gauges: ^20.2.45
+  shared_preferences: ^2.0.15
+  flutter_local_notifications: ^9.4.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/fonts/
